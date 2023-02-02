@@ -1,10 +1,11 @@
 import React from "react";
+import styles from "./home.module.scss";
 
 const Home = () => {
   return (
-    <div>
-      <h1>Home</h1>
-    </div>
+    <section id="home">
+      <h1 className={styles.h1}>Home</h1>
+    </section>
   );
 };
 

@@ -1,6 +1,9 @@
 :root {
   @import url('https://fonts.googleapis.com/css2?family=Karla:wght@500;700&display=swap');
   font-family: 'Karla', sans-serif;
+  scroll-behavior: smooth;
+  scroll-padding-top: 15vh;
+  z-index: 1;
 }
 
 body {
@@ -8,6 +11,7 @@ body {
   padding: 0;
   background-color: #25283D;
   color: white;
+
 }
 
 * {
@@ -15,3 +19,8 @@ body {
   margin: 0;
   padding: 0;
 }
+
+section {
+  min-height: 100vh;
+}
+
