@@ -1,3 +1,4 @@
+@use "../../variables.scss" as v;
 
 .nav {
     position: fixed;
@@ -14,33 +15,34 @@
     display: flex;
     align-items: center;
     position: relative;
+    font-size: 1.4rem;
 }
 
 //Desktop
 @media (min-width: 500px) {
     .list {
         justify-content: flex-end;
+        margin-right: 30px;
+        // font-size: 20px;
     }
 }
 
 .items {
     margin-right: 20px;
-    font-size: 20px;
     text-transform: uppercase;
     cursor: pointer;
+
+    .a {
+        text-decoration: none;
+        color: #f1f1f1;
+    }
 }
 
-.a {
-    text-decoration: none;
-    color: #f1f1f1;
-}
-
-.btn {
+.hamburger {
     display: none;
     position: absolute;
     right: 10px;
     top: 7px;
-    padding: 5px;
     color: black;
     font-size: 18px;
 }
@@ -51,26 +53,32 @@
 
 // Mobile
 @media screen and (max-width: 500px) {
+    .nav {
+        height: 60px;
+    }
+
     .list {
         flex-direction: column;
         height: auto;
-        
-    }
-    .items:nth-child(1) {
-        border-top: 1px solid black;
-        margin-top: 70px;
-    }
 
-    .items {
-        width: 100%;
-        border-top: 1px solid black;
-        text-align: center;
-        margin-right: 0;
-        padding: 20px;
-    }
+        .items:nth-child(1) {
+            border-top: 1px solid black;
+            margin-top: 70px;
+        }
 
-    .btn {
+        .items {
+            width: 100%;
+            border-top: 1px solid black;
+            text-align: center;
+            margin-right: 0;
+            padding: 20px;
+            // font-size: v.$medium-font-mobile;
+        }
+    }
+    
+    .hamburger {
         display: block;
+        width: auto;
     }
 
     .span {
@@ -78,28 +86,19 @@
         border: 2px solid white;
         width: 40px;
         margin: 8px;
-        transition: .3s ease;
+        transition: 0.8s;
     }
 
-    .spanActive {
+    .spanActive, .spanActiveBottom {
         display: block;
-        border: 2px solid rgb(214, 7, 7);
-        width: 40px;
+        border: 2px solid white;
+        width: 18px;
         margin: 8px;
-        transition: .3s ease;
-        transform: rotate(-45deg);
+        transition: ease 0.4s;
     }
 
-    .spanNone {
-        display: none;
-    }
-
-    .spanActiveDown {
-        display: block;
-        border: 2px solid rgb(214, 7, 7);
-        width: 40px;
-        margin: 8px;
-        transition: .3s ease;
-        transform: rotate(45deg);
+    .spanActiveBottom {
+        width: 30px;
     }
 }
+

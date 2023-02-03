@@ -48,15 +48,13 @@ const Navigation = () => {
         </ul>
       )}
 
-      <div onClick={toogleNav} className={styles.btn}>
+      <div onClick={toogleNav} className={styles.hamburger}>
+        <span className={styles.span}></span>
         <span
           className={`${toogleMenu ? styles.spanActive : styles.span}`}
         ></span>
         <span
-          className={`${toogleMenu ? styles.spanNone : styles.span}`}
-        ></span>
-        <span
-          className={`${toogleMenu ? styles.spanActiveDown : styles.span}`}
+          className={`${toogleMenu ? styles.spanActiveBottom : styles.span}`}
         ></span>
       </div>
     </nav>
