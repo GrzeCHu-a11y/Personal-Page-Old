@@ -4,7 +4,7 @@ import styles from "./projects.module.scss";
 const Projects = () => {
   return (
     <section id="projects">
-      <h1>projects</h1>
+      <h2>Projects</h2>
     </section>
   );
 };

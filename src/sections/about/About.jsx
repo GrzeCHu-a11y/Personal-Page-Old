@@ -4,7 +4,7 @@ import styles from "./about.module.scss";
 const About = () => {
   return (
     <section id="about">
-      <h1>about</h1>
+      <h2>About</h2>
     </section>
   );
 };

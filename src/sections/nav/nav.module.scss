@@ -15,7 +15,6 @@
     display: flex;
     align-items: center;
     position: relative;
-    font-size: 1.4rem;
 }
 
 //Desktop
@@ -23,13 +22,13 @@
     .list {
         justify-content: flex-end;
         margin-right: 30px;
-        // font-size: 20px;
+        font-size: v.$font-size-2;
     }
 }
 
 .items {
     margin-right: 20px;
-    text-transform: uppercase;
+    // text-transform: uppercase;
     cursor: pointer;
 
     .a {
@@ -60,6 +59,7 @@
     .list {
         flex-direction: column;
         height: auto;
+        font-size: v.$font-size-2;
 
         .items:nth-child(1) {
             border-top: 1px solid black;
@@ -72,7 +72,7 @@
             text-align: center;
             margin-right: 0;
             padding: 20px;
-            // font-size: v.$medium-font-mobile;
+
         }
     }
     

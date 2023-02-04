@@ -27,22 +27,22 @@ const Navigation = () => {
         <ul className={styles.list}>
           <li className={styles.items}>
             <a className={styles.a} href="#home">
-              HOME
+              home
             </a>
           </li>
           <li className={styles.items}>
             <a className={styles.a} href="#about">
-              ABOUT
+              about
             </a>
           </li>
           <li className={styles.items}>
             <a className={styles.a} href="#projects">
-              PROJECTS
+              projects
             </a>
           </li>
           <li className={styles.items}>
             <a className={styles.a} href="#contact">
-              CONTACT
+              contact
             </a>
           </li>
         </ul>
