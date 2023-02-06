@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./home.module.scss";
-import Button from "./components/Button";
+import CodeAnimation from "../../components/CodeAnimation";
 
 const Home = () => {
   return (
@@ -9,15 +9,25 @@ const Home = () => {
         <div className={styles.infoWrapper}>
           <header className={styles.header}>
             <h1 className={styles.h1}>
-              My name is Grzegorz. my passion is creating websites.
+              My name is Grzegorz. My passion is creating websites.
             </h1>
           </header>
-          <Button />
+          <div className={styles.socialsContainer}>
+            <button className={styles.socialsButton}>
+              <a href="#">download cv</a>
+            </button>
+            <a
+              className={styles.socialsA}
+              href="https://github.com/GrzeCHu-a11y"
+              target={"_blank"}
+            >
+              or see github profile
+            </a>
+          </div>
         </div>
 
         <div className={styles.animationWrapper}></div>
       </main>
-      {/* <h1 className={styles.h1}>Home</h1> */}
     </section>
   );
 };
