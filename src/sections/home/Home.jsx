@@ -26,7 +26,9 @@ const Home = () => {
           </div>
         </div>
 
-        <div className={styles.animationWrapper}></div>
+        <div className={styles.animationWrapper}>
+          <CodeAnimation />
+        </div>
       </main>
     </section>
   );
