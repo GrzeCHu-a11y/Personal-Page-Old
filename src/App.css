@@ -11,6 +11,14 @@
   padding-bottom: 5rem;
 }
 
+/* Desktop */
+@media (min-width: 500px) {
+  #about {
+      padding-top: 0rem;
+  }
+}
+
+
 section {
   z-index: 1;
 }
