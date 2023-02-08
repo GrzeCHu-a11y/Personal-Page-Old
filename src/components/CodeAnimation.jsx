@@ -13,7 +13,7 @@ const CodeAnimation = () => {
       <Typewriter
         options={{
           strings: [
-            "body { <br> margin: 0; <br> padding: 0; <br> font-size: 19px; <br> } <br> <br> p {  <br> color: red; <br> font-weight: bolder;<br> } <br> <br> div { <br> width: 100%; height: 100vh; <br> }",
+            "body { <br> margin: 0; <br> padding: 0; <br> font-size: 19px; <br> } <br> <br> p {  <br> color: red; <br> font-weight: bolder;<br> } <br> <br> div { <br> width: 100%; <br> height: 100vh; <br> }",
           ],
           autoStart: true,
           loop: true,
@@ -25,4 +25,3 @@ const CodeAnimation = () => {
 };
 
 export default CodeAnimation;
-("body { <br> margin: 0; <br> padding: 0; <br> font-size: 19px; <br> } <br> <br> p {  <br> color: red; <br> font-weight: bolder;<br> } <br> <br> div { <br> width: 100%; height: 100vh; <br> }");
