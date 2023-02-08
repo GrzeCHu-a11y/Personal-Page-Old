@@ -4,3 +4,17 @@
   padding: 2rem;
   text-align: center;
 } */
+
+
+#about, #projects {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+section {
+  z-index: 1;
+}
+
+nav {
+  z-index: 2;
+}

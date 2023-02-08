@@ -11,19 +11,18 @@ const CodeAnimation = () => {
         <span className={styles.dot}></span>
       </div>
       <Typewriter
-        onInit={(typewriter) => {
-          typewriter
-            // .typeString("body {")
-            // .pauseFor(2500)
-            .typeString(
-              "body { <br> margin: 0; <br> padding: 0; <br> font-size: 19px; <br> } <br> <br> p {  <br> color: red; <br> font-weight: bolder;<br> } <br> <br> div { <br> width: 100%; height: 100vh; <br> }"
-            )
-            .start();
+        options={{
+          strings: [
+            "body { <br> margin: 0; <br> padding: 0; <br> font-size: 19px; <br> } <br> <br> p {  <br> color: red; <br> font-weight: bolder;<br> } <br> <br> div { <br> width: 100%; height: 100vh; <br> }",
+          ],
+          autoStart: true,
+          loop: true,
+          delay: 70,
         }}
-        typeSpeed={7000}
       />
     </div>
   );
 };
 
 export default CodeAnimation;
+("body { <br> margin: 0; <br> padding: 0; <br> font-size: 19px; <br> } <br> <br> p {  <br> color: red; <br> font-weight: bolder;<br> } <br> <br> div { <br> width: 100%; height: 100vh; <br> }");
