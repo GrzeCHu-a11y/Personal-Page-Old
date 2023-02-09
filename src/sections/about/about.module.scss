@@ -4,18 +4,6 @@
     flex-wrap: wrap;
 }
 
-.header {
-    text-align: center;
-    font-size: v.$font-size-2;
-}
-
-  //Desktop
-  @media (min-width: 500px) {
-    .header {
-        font-size: v.$font-size-2-5;
-    }
-}
-
 .informationsWrapper {
     width: 100%;
     height: auto;
@@ -61,7 +49,7 @@
     padding-top: 30px;
 
     .p {
-        font-size: v.$font-size-0-1;
+        font-size: v.$font-size-0-8;
     }
         //Desktop
         @media (min-width: 500px) {
@@ -74,13 +62,13 @@
 
 .h3 {
     padding: 20px 0;
-    font-size: v.$font-size-2-2;
+    font-size: v.$font-size-1-3;
 }
 
  //Desktop
  @media (min-width: 500px) {
     .h3 {
-        font-size: v.$font-size-2-5;
+        font-size: v.$font-size-1-5;
     }
 }
 
@@ -97,7 +85,7 @@
     }
 
     .techP {
-        font-size: v.$font-size-0-2;
+        font-size: v.$font-size-0-8;
     } 
 }
 

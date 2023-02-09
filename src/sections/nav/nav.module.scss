@@ -22,7 +22,7 @@
     .list {
         justify-content: flex-end;
         margin-right: 30px;
-        font-size: v.$font-size-2;
+        font-size: v.$font-size-1-2;
     }
 }
 
@@ -59,7 +59,7 @@
     .list {
         flex-direction: column;
         height: auto;
-        font-size: v.$font-size-2;
+        font-size: v.$font-size-1-2;
 
         .items:nth-child(1) {
             border-top: 1px solid black;

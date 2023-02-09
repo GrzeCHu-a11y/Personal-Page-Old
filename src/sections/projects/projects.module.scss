@@ -1,0 +1,32 @@
+@use "../../variables.scss" as v;
+.projects {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonsContainer {
+    width: 100%;
+    padding-top: 40px;
+    height: auto;
+    justify-content: center;
+    display: flex;
+    // background-color: red;
+}
+
+.button {
+    font-size: v.$font-size-0-7;
+    // font-size: 0.7rem;
+    padding: 5px;
+    margin: 10px;
+    background-color: #631E99;
+    color: white;
+    border: none;
+}
+
+.projctsContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+}

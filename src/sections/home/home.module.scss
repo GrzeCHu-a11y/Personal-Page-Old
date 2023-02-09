@@ -6,7 +6,7 @@
 
 .header {
     padding-top: 40px;
-    font-size: v.$font-size-2;
+    font-size: v.$font-size-1-2;
 }
 
 .socialsContainer {
@@ -20,7 +20,7 @@
         width: auto;
         padding: 5px 10px 5px 10px;
         margin-top: 40px;
-        font-size: v.$font-size-0;
+        font-size: v.$font-size-0-7;
         border: none;        
     }
 
@@ -28,7 +28,7 @@
         margin-top: 40px;
         margin-left: 10px;
         padding: 5px;
-        font-size: v.$font-size-0;
+        font-size: v.$font-size-0-7;
     }
 
     .socialsA::after {
@@ -87,9 +87,9 @@
 
         .h1 {
             width: auto;
-            font-size: v.$font-size-5;
+            font-size: v.$font-size-4;
             @media (min-width: 1600px) {
-                font-size: v.$font-size-6;
+                font-size: v.$font-size-5;
             }
         }
     }
@@ -98,14 +98,14 @@
         .socialsButton {
             font-size: v.$font-size-1;
             @media (min-width: 1600px) {
-                    font-size: v.$font-size-3;
+                    font-size: v.$font-size-2;
             }
         }
     
         .socialsA {
             font-size: v.$font-size-1;  
             @media (min-width: 1600px) {
-                font-size: v.$font-size-3;
+                font-size: v.$font-size-2;
         }
         }
     }

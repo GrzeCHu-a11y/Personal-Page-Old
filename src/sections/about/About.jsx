@@ -1,13 +1,12 @@
 import React from "react";
 import styles from "./about.module.scss";
 import image from "../../assets/images/Online page-amico.png";
+import SectionHeader from "../../components/SectionHeader";
 
 const About = () => {
   return (
     <section id="about" className={styles.about}>
-      <header className={styles.header}>
-        <h2 className={styles.headerH2}>About.</h2>
-      </header>
+      <SectionHeader title="About" />
       <div className={styles.informationsWrapper}>
         <div className={styles.imgContainer}>
           <img className={styles.img} src={image} alt="image" />
