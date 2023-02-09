@@ -2,7 +2,7 @@
   @import url('https://fonts.googleapis.com/css2?family=Karla:wght@500;700&display=swap');
   font-family: 'Karla', sans-serif;
   scroll-behavior: smooth;
-  /* scroll-padding-top: 10vh; */
+  scroll-padding-top: 4rem;
   z-index: 1;
 }
 

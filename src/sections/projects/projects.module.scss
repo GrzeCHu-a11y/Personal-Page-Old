@@ -10,12 +10,10 @@
     height: auto;
     justify-content: center;
     display: flex;
-    // background-color: red;
 }
 
 .button {
     font-size: v.$font-size-0-7;
-    // font-size: 0.7rem;
     padding: 5px;
     margin: 10px;
     background-color: #631E99;
@@ -23,10 +21,42 @@
     border: none;
 }
 
-.projctsContainer {
+.projectsContainer {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     width: 100%;
     height: auto;
     padding-top: 20px;
+}
+
+.img {
+    width: 280px;
+    height: 200px;
+    padding-top: 20px;
+}
+
+//Desktop
+@media (min-width: 500px) {
+    .button {
+        font-size: v.$font-size-0-9;
+        padding: 5px;
+        margin: 10px;
+    }
+
+    .button:hover {
+        cursor: pointer;
+        background-color: red;
+    }
+
+    .projectsContainer {
+        flex-direction: row;
+        gap: 40px;
+    }
+
+    .img {
+        width: 500px;
+        height: 300px;
+    }
 }

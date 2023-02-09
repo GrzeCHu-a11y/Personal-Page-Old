@@ -5,6 +5,13 @@ import data from "../../Data";
 
 const Projects = () => {
   const [tag, setTag] = useState("all");
+  const [filteredImages, setFilteredImages] = useState([]);
+
+  useEffect(() => {
+    tag === "all"
+      ? setFilteredImages(data)
+      : setFilteredImages(data.filter((project) => project.tag === tag));
+  }, [tag]);
 
   function handleSetTag(e) {
     setTag(e.target.name);
@@ -29,10 +36,13 @@ const Projects = () => {
         </button>
       </div>
       <div className={styles.projectsContainer}>
-        <h4>{tag}</h4>
-        {data.map((project) => (
+        {filteredImages.map((project) => (
           <div key={project.id}>
-            <img src={project.projectImage} alt="" />
+            <img
+              src={project.projectImage}
+              alt={project.id}
+              className={styles.img}
+            />
           </div>
         ))}
       </div>
