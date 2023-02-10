@@ -22,27 +22,52 @@ const Projects = () => {
     <section id="projects" className={styles.projects}>
       <SectionHeader title="Projects" />
       <div className={styles.buttonsContainer}>
-        <button name="all" className={styles.button} onClick={handleSetTag}>
+        <button
+          name="all"
+          className={`${tag == "all" ? styles.buttonActive : styles.button}`}
+          onClick={handleSetTag}
+        >
           ALL
         </button>
-        <button name="pages" className={styles.button} onClick={handleSetTag}>
+        <button
+          name="pages"
+          className={`${tag == "pages" ? styles.buttonActive : styles.button}`}
+          onClick={handleSetTag}
+        >
           WEB PAGES
         </button>
-        <button name="design" className={styles.button} onClick={handleSetTag}>
+        <button
+          name="design"
+          className={`${tag == "design" ? styles.buttonActive : styles.button}`}
+          onClick={handleSetTag}
+        >
           UI/UX DESGIN
         </button>
-        <button name="games" className={styles.button} onClick={handleSetTag}>
+        <button
+          name="games"
+          className={`${tag == "games" ? styles.buttonActive : styles.button}`}
+          onClick={handleSetTag}
+        >
           GAMES
         </button>
       </div>
       <div className={styles.projectsContainer}>
         {filteredImages.map((project) => (
-          <div key={project.id}>
-            <img
-              src={project.projectImage}
-              alt={project.id}
-              className={styles.img}
-            />
+          <div className={styles.card} key={project.id}>
+            <div className={styles.imgContainer}>
+              <img
+                src={project.projectImage}
+                alt={project.id}
+                className={styles.img}
+              />
+            </div>
+            <div className={styles.projectInfoContainer}>
+              <h3 className={styles.h3}>{project.projectName}</h3>
+              <p className={styles.projectInfoP}>{project.projectInfo}</p>
+              <a className={styles.a} href={project.link}>
+                open demo
+              </a>
+            </div>
           </div>
         ))}
       </div>

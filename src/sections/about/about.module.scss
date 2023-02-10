@@ -57,6 +57,12 @@
                 font-size: v.$font-size-1;
             }
         }
+        //Big Desktop
+        @media (min-width: 1600px) {
+            .p {
+                font-size: v.$font-size-1-2;
+            }
+        }
     
 }
 
@@ -72,6 +78,13 @@
     }
 }
 
+  //Big Desktop
+  @media (min-width: 1600px) {
+    .h3 {
+        font-size: v.$font-size-1-6;
+    }
+}
+
 
 
 .technologiesContainer {
@@ -84,9 +97,23 @@
        font-size: v.$font-size-1;
     }
 
+      //Big Desktop
+      @media (min-width: 1600px) {
+        .h4 {
+            font-size: v.$font-size-1-2;
+        }
+    }
+
     .techP {
         font-size: v.$font-size-0-8;
-    } 
+    }
+    
+      //Big Desktop
+      @media (min-width: 1600px) {
+        .techP {
+            font-size: v.$font-size-1;
+        }
+    }
 }
 
 

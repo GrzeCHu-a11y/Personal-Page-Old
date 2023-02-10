@@ -24,6 +24,11 @@
         border: none;        
     }
 
+    .socialsButton:hover {
+        background-color: rgb(232, 14, 14);
+        transform: scale(1.1);
+    }
+
     .socialsA {
         margin-top: 40px;
         margin-left: 10px;
@@ -98,14 +103,14 @@
         .socialsButton {
             font-size: v.$font-size-1;
             @media (min-width: 1600px) {
-                    font-size: v.$font-size-2;
+                    font-size: v.$font-size-1-3;
             }
         }
     
         .socialsA {
             font-size: v.$font-size-1;  
             @media (min-width: 1600px) {
-                font-size: v.$font-size-2;
+                font-size: v.$font-size-1-3;
         }
         }
     }
@@ -116,12 +121,10 @@
 
     .infoWrapper {
         width: 70%;
-        // background-color: red;
     }
 
     .animationWrapper {
         width: 30%;
-        // background-color: green;
     }
 }
 

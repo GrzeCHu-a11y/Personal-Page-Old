@@ -1,23 +1,25 @@
-/* #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-} */
+
 
 
 #about, #projects {
   padding-top: 4rem;
-  /* padding-bottom: 3rem; */
 }
 
-/* Desktop
+
+
+/* Desktop */
+@media (min-width: 500px) {
+  #projects {
+        padding-bottom: 3rem;
+  }
+}
+
+/* Desktop */
 @media (min-width: 500px) {
   #about {
-      padding-top: 0rem;
+    padding-top: 1rem;
   }
-} */
-
+}
 
 section {
   z-index: 1;
