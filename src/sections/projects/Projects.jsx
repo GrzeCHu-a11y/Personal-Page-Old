@@ -64,6 +64,9 @@ const Projects = () => {
             <div className={styles.projectInfoContainer}>
               <h3 className={styles.h3}>{project.projectName}</h3>
               <p className={styles.projectInfoP}>{project.projectInfo}</p>
+              <p className={styles.techstackP}>
+                technolgies used for this project: {project.techstack}
+              </p>
               <a className={styles.a} href={project.link}>
                 open demo
               </a>

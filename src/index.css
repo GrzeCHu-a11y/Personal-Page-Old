@@ -78,11 +78,11 @@ section {
   }
 
   *::-webkit-scrollbar-track {
-    background: #ffffff;
+    background: #3a4063;
   }
 
   *::-webkit-scrollbar-thumb {
-    background-color: #2c304a;
+    background-color: #292c41;
     border-radius: 10px;
-    border: 3px solid #ffffff;
+    border: 3px solid #2c304a;
   }
