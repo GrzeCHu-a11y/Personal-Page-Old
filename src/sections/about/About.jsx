@@ -1,12 +1,12 @@
 import React from "react";
 import styles from "./about.module.scss";
-import image from "../../assets/images/Online page-amico.png";
+import image from "../../assets/images/Online page-amico-min.png";
 import SectionHeader from "../../components/SectionHeader";
 
 const About = () => {
   return (
     <section id="about" className={styles.about}>
-      <SectionHeader title="About" />
+      <SectionHeader title="About me" />
       <div className={styles.informationsWrapper}>
         <div className={styles.imgContainer}>
           <img className={styles.img} src={image} alt="image" />
@@ -15,17 +15,16 @@ const About = () => {
           <div className={styles.textContainer}>
             <article className={styles.article}>
               <p className={styles.p}>
-                I‘m interested in programing at 5 yerars. By this time i have
-                konwegle at JS, React, HTML, SCSS. moreover I like project
-                beautifoul websites.
+                Hi, I’m Grzegorz, a self-taught front-end developer. I like
+                building responsive, user-friendly websites and web apps, that
+                look visually appealing.
               </p>
             </article>
             <article className={styles.article}>
               <p className={styles.p}>
-                is simply dummy text of the printing and typesetting industry
-                Lorem Ipsum has been the industry's standard dummy text er since
-                the 1500s, when an unknown printer took a galley of and
-                scrambled it to make a type specimen book.
+                My present stack includes HTML, CSS, SCSS and JavaScript, and I
+                am currently in the process of learning Vue. My tools for design
+                are Figma and Adobe Xd.
               </p>
             </article>
             <h3 className={styles.h3}>Technologies what i use</h3>

@@ -20,7 +20,7 @@ const Projects = () => {
 
   return (
     <section id="projects" className={styles.projects}>
-      <SectionHeader title="Projects" />
+      <SectionHeader title="Things I've built" />
       <div className={styles.buttonsContainer}>
         <button
           name="all"

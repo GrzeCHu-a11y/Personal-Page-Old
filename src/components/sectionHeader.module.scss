@@ -2,11 +2,18 @@
 .header {
     width: 100%;
     text-align: center;
-    font-size: v.$font-size-1-2;
+    font-size: v.$font-size-1;
 }
 
   //Desktop
   @media (min-width: 500px) {
+    .header {
+        font-size: v.$font-size-1-3;
+    }
+}
+
+//Big Desktop
+@media (min-width: 1600px) {
     .header {
         font-size: v.$font-size-1-5;
     }

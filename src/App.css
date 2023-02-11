@@ -1,16 +1,13 @@
 
-
-
 #about, #projects {
   padding-top: 4rem;
 }
-
-
 
 /* Desktop */
 @media (min-width: 500px) {
   #projects {
         padding-bottom: 3rem;
+        min-height: 100vh;
   }
 }
 
