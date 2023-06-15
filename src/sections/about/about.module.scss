@@ -74,7 +74,7 @@
  //Desktop
  @media (min-width: 500px) {
     .h3 {
-        font-size: v.$font-size-1-3;
+        font-size: v.$font-size-1-5;
     }
 }
 
@@ -94,7 +94,7 @@
     .h4 {
        padding: 15px 0;
        font-weight: 600;
-       font-size: v.$font-size-0-8;
+       font-size: v.$font-size-0-9;
     }
 
       //Big Desktop
@@ -107,6 +107,13 @@
     .techP {
         font-size: v.$font-size-0-8;
     }
+
+     //Desktop
+ @media (min-width: 500px) {
+    .techP {
+        font-size: v.$font-size-0-9;
+    }
+ }
     
       //Big Desktop
       @media (min-width: 1600px) {

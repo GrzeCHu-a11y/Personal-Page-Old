@@ -15,25 +15,27 @@ const About = () => {
           <div className={styles.textContainer}>
             <article className={styles.article}>
               <p className={styles.p}>
-                Hi, I’m Grzegorz, a self-taught front-end developer. I like
-                building responsive, user-friendly websites and web apps, that
-                look visually appealing.
+                Hi, I’m Grzegorz, a self-taught front-end developer. I like building responsive, user-friendly websites and web apps, that look
+                visually appealing.
               </p>
             </article>
             <article className={styles.article}>
               <p className={styles.p}>
-                My present stack includes HTML, CSS, SCSS and JavaScript, and I
-                am currently in the process of learning Vue. My tools for design
+                My present stack includes HTML, CSS, SCSS and JavaScript, and I am currently in the process of learning Vue. My tools for design
                 are Figma and Adobe Xd.
               </p>
             </article>
             <h3 className={styles.h3}>Technologies what i use</h3>
             <div className={styles.technologiesContainer}>
-              <h4 className={styles.h4}>FRONTEND:</h4>
+              <h4 className={styles.h4}>FRONTEND & BACKEND</h4>
               <p className={styles.techP}>HTML</p>
               <p className={styles.techP}>CSS / SCSS</p>
-              <p className={styles.techP}>REACT JS</p>
+              <p className={styles.techP}>REACT</p>
+              <p className={styles.techP}>PHP</p>
+              <p className={styles.techP}>SYMFONY</p>
+              <p className={styles.techP}>MYSQL</p>
               <p className={styles.techP}>WORDPRESS</p>
+              <p className={styles.techP}>VITE</p>
               <h4 className={styles.h4}>WEB DESIGN</h4>
               <p className={styles.techP}>FIGMA</p>
               <p className={styles.techP}>ADOBE XD</p>

@@ -7,7 +7,7 @@ const Footer = () => {
     <footer id="contact" className={styles.footer}>
       <SectionHeader title="Contact" />
       <p>Email:</p>
-      <p>grzegorzgonczowski@gmai.com</p>
+      <p>grzegorzgonczowski9@gmail.com</p>
       <p>Grzegorz Gończowski © 2023</p>
     </footer>
   );
