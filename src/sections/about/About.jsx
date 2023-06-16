@@ -35,6 +35,7 @@ const About = () => {
               <p className={styles.techP}>SYMFONY</p>
               <p className={styles.techP}>MYSQL</p>
               <p className={styles.techP}>WORDPRESS</p>
+              <p className={styles.techP}>BOOTSTRAP</p>
               <p className={styles.techP}>VITE</p>
               <h4 className={styles.h4}>WEB DESIGN</h4>
               <p className={styles.techP}>FIGMA</p>
