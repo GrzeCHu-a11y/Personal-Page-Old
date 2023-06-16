@@ -21,8 +21,8 @@ const About = () => {
             </article>
             <article className={styles.article}>
               <p className={styles.p}>
-                My present stack includes HTML, CSS, SCSS and JavaScript, and I am currently in the process of learning Vue. My tools for design
-                are Figma and Adobe Xd.
+                My present stack includes HTML, CSS, SCSS, JavaScript, React, PHP and Symfony framework and I am currently in the process of
+                learning Typescript. My tools for design are Figma and Adobe Xd.
               </p>
             </article>
             <h3 className={styles.h3}>Technologies what i use</h3>

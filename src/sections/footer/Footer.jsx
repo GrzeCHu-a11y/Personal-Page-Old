@@ -6,8 +6,8 @@ const Footer = () => {
   return (
     <footer id="contact" className={styles.footer}>
       <SectionHeader title="Contact" />
-      <p>Email:</p>
       <p>grzegorzgonczowski9@gmail.com</p>
+      <p>phone: 516-362-117</p>
       <p>Grzegorz Gończowski © 2023</p>
     </footer>
   );
