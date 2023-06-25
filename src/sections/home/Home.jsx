@@ -12,7 +12,7 @@ const Home = () => {
           </header>
           <div className={styles.socialsContainer}>
             <button className={styles.socialsButton}>
-              <a href="/Grzegorz Gończowski.pdf" target="blank">
+              <a href="/Grzegorz Gończowski CV.pdf" target="blank">
                 download cv
               </a>
             </button>
