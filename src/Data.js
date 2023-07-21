@@ -8,5 +8,5 @@ export default [
     {id: "7", projectName: "RPG GAME", projectInfo: "RPG GAME is in progress", projectImage: "/work in progress-min.jpg", link: "#", tag: "games"},
     {id: "8", projectName: "Symfony Image Uploader", projectInfo: "You can register, login, and upload images at this page", projectImage: "/work in progress-min.jpg", link: "https://github.com/GrzeCHu-a11y/Symfony-Image-Uploader", tag: "pages", techstack: "#SYMFONY, #PHP, #MYSQL"},
     {id: "9", projectName: "Personal Page Design", projectInfo: "It's Personal page design in figma", projectImage: "/personalpagedesign.png", link: "https://www.figma.com/file/2jHLfTfnQijjQ8hTN2QACw/strona-g%C5%82%C3%B3wna?type=design&node-id=0-1&t=dJGUMHhjZQzJHEoo-0", tag: "design", techstack: "#FIGMA"},
- 
+    {id: "10", projectName: "Expenses App", projectInfo: "Expenses app", projectImage: "/expensesapp", link: "https://grzechu-a11y.github.io/expenses-app/", tag: "pages", techstack: "#HTML, #CSS, #JAVASCRIPT"},
 ]
